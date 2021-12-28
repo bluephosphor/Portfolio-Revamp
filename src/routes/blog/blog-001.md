@@ -1,5 +1,7 @@
 ---
 title: First Post
+tags:
+    - personal
 ---
 
 # {title}
