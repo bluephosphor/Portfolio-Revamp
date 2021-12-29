@@ -1,9 +1,11 @@
 ---
+layout: blog
 title: Humble Beginnings
 date: 2021-12-28
 tags:
     - tech
     - personal
+    - game-maker
 ---
 
 ### part[1] = "DnD, but not with Dungeons or Dragons";

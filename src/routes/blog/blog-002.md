@@ -1,4 +1,5 @@
 ---
+layout: blog
 title: Second Post
 tags:
     - tech
@@ -6,6 +7,4 @@ tags:
 date: 2021-12-28
 ---
 
-# {title}
-
-This is first post :)
+This is second post, damn it. :)
