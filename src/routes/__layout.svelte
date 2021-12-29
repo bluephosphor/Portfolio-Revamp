@@ -7,11 +7,10 @@
     <slot />
 </div>
 
-<style>
+<style lang="scss">
     .container {
         font-family: sans-serif;
         max-width: 800px;
-        margin: 50px auto
-
+        margin: 50px auto;
     }
 </style>
