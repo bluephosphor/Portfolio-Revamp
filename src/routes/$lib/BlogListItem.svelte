@@ -1,22 +1,14 @@
 <script>
     import { formatDate } from '/src/HelperFunctions';
-    import { createEventDispatcher } from 'svelte';
     export let path;
     export let metadata;
 
-    const dispatch = createEventDispatcher();
-
-    const forward = (event) => {
-        dispatch('update');
-    }
     const { title, date, tags } = metadata;
 </script>
 
 <section class="blog-item">
     <div class="title-row">
-        <a href={`/blog/${path.replace(".md", "").replace(".svx", "")}`}
-            >{title}</a
-        >
+        <a href={`/blog/${path.replace(".md", "").replace(".svx", "")}`}>{title}</a>
         <span class="date">{formatDate(date)}</span>
     </div>
 
@@ -52,8 +44,7 @@
         color: gray;
         text-align: right;
         position: relative;
-        top:-14px;
-        background-color: black;
+        top:-8px;
         padding: 0px 2px;
     }
     p {

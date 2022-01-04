@@ -1,7 +1,11 @@
+<script>
+  import { mainNav } from '/src/SiteData';
+</script>
+
 <nav>
-    <a href="/">Home</a>
-    <a href="/projects/">Projects</a>
-    <a href="/blog/">Blog</a>
+    {#each mainNav as link}
+      <a href={link.url}>{link.name}</a>
+    {/each}
 </nav>
 
 <style lang="scss">
