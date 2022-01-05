@@ -19,6 +19,7 @@
     justify-content: center;
     width: 100%;
     height: 75vh;
+    font-family: 'Spectral', serif;
     text-align: center;
     color: #ECF;
     text-shadow: 2px 2px 3px #505;

@@ -13,7 +13,6 @@
 
 <style lang="scss">
   span{
-    font-family: sans-serif;
     font-size: 0.9em;
     text-align: center;
   }

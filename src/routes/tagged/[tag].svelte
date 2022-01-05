@@ -35,11 +35,11 @@
 
 <h3>Filter by tag: #{tag}</h3>
 
-<div class="blog-section">
+<main class="blog-section">
   {#each filteredPosts as { path, metadata } (metadata.title)}
     <BlogListItem {path} {metadata} />
   {/each}
-</div>
+</main>
 
 <style lang="scss">
   .blog-section {
