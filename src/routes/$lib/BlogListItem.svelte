@@ -21,11 +21,13 @@
 
 <style lang="scss">
     .blog-item {
+        border: 1px solid black;
         border-bottom: 1px solid gray;
         padding: 8px;
+        transition: 0.3s;
         &:hover{
-            border: 1px solid #aaa;
-            padding: 7px 7px 8px 7px
+            border-color: #aaa;
+            //padding: 7px 7px 8px 7px
         }
     }
     .title-row {
@@ -34,6 +36,7 @@
         a {
             font-size: 1.3rem;
             text-decoration: none;
+            transition: 0.3s;
             &:hover {
                 color: white;
             }
@@ -53,13 +56,14 @@
     .tag {
         color: white;
         background-color: #444;
+        border: 1px solid #444;
         text-decoration: none;
         padding: 4px 8px;
         border-radius: 3px;
         margin-right: 10px;
         font-size: 0.8em;
+        transition: 0.1s;
         &:hover {
-            padding:3px 7px;
             background-color: black;
             border: 1px solid white;
         }

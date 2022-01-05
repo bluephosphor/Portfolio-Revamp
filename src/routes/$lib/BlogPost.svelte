@@ -25,5 +25,20 @@
     .container :global(img) {
         display: block;
         width: 75%;
+        margin: auto;
+    }
+    .container :global(hr){
+      border: 0;
+      height: 1px;
+      background-color: gray;
+    }
+    .container{
+      background-color: #000c;
+      padding: 8px
+    }
+    hr{
+      border: 0;
+      height: 1px;
+      background-color: gray;
     }
 </style>
