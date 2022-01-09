@@ -1,5 +1,5 @@
 <script>
-    import { formatDate } from '/src/HelperFunctions';
+    import { formatDate, trimPath } from '/src/HelperFunctions';
     export let path;
     export let metadata;
 
@@ -8,7 +8,7 @@
 
 <section class="blog-item">
     <div class="title-row">
-        <a href={`/blog/${path.replace(".md", "").replace(".svx", "")}`}>{title}</a>
+        <a href={`/blog/${trimPath(path)}`}>{title}</a>
         <span class="date">{formatDate(date)}</span>
     </div>
 

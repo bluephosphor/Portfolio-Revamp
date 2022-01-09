@@ -4,3 +4,5 @@ export const formatDate = (dateString) => {
 
     return date.toLocaleDateString('en-US', options);
 }
+
+export const trimPath = (path) => path.replace(".md", "").replace(".svx", "");

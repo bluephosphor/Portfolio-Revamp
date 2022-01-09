@@ -1,9 +1,15 @@
 <script>
-  export let title;
+  import { trimPath } from '/src/HelperFunctions'
+  export let path;
+  export let metadata;
+
+  const { title } = metadata;
 </script>
 
 <section>
-  <h3>{title}</h3>
+  <a href={`projects/${trimPath(path)}`}>
+    <h3>{title}</h3>
+  </a>
   <hr />
 
 </section>
