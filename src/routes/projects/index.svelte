@@ -36,6 +36,8 @@
 
 <style lang="scss">
   .list-container {
+    margin-top: 16px;
+    column-gap: 16px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

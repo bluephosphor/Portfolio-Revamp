@@ -36,9 +36,4 @@
       background-color: #000c;
       padding: 8px
     }
-    hr{
-      border: 0;
-      height: 1px;
-      background-color: gray;
-    }
 </style>

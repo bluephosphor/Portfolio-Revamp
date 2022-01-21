@@ -16,8 +16,15 @@
 
 <style lang="scss">
   section{
-    width: 384px;
+    width: 372px;
     height: 150px;
-    background: #000D;
+    background: $bg-color;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    padding: 8px;
+  }
+  hr{
+    height: 0px;
+    border-top: 1px solid gray;
   }
 </style>

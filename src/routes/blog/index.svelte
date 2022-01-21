@@ -40,6 +40,6 @@
         border-top: 1px solid gray;
         border-right: 1px solid gray;
         border-left: 1px solid gray;
-        background-color: #000000DD
+        background-color: $bg-color
     }
 </style>

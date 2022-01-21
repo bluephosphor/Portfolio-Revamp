@@ -13,10 +13,14 @@
     margin: 0px;
     padding: 0px 0px 8px 0px;
     display: flex;
-    border-bottom: 1px solid gray;
+    background: $bg-color;
+    justify-content: center;
+    border-radius: 5px;
   }
   a {
     text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 84px;
     margin-right: 10px;
     transition: 0.3s;
     &:hover {

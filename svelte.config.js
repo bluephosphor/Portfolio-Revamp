@@ -13,7 +13,11 @@ const config = {
     target: "#svelte",
   },
 
-  preprocess: [sveltePreprocess(), mdsvex(mdsvexConfig)],
+  preprocess: [sveltePreprocess({
+    scss: {
+      prependData: `@import './src/root.scss';`
+    }
+  }), mdsvex(mdsvexConfig)],
 };
 
 export default config;
